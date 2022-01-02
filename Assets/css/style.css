@@ -20,7 +20,6 @@ body{
 }
 .app{
     width: 30%;
-    height: 100vh;
     border-radius: 12px;
     padding: 25px;
     background-color: var(--white-color);
