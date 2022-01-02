@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel='icon' href='https://play-lh.googleusercontent.com/zoAQwsds7P2exgVXFUiV8faEmblggMeZ59pILSa9B1cCYwHD7PFExvHhdDZCvW1enpEY'/>
+    <script src="https://kit.fontawesome.com/a7b0f58175.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="app-search">
+            <input type="text" placeholder="Tìm kiếm theo thành phố" class='app-search__input'/>
+        </div>
+        <div class="app-content-error">
+            <p class="app-content-text">Không tìm thấy kết quả nào</p>
+        </div>
+        <div class="app-content">
+            <div class="app-title">
+                <h3 class="app-title__province"></h3>
+                <p class="app-title__date"></p>
+            </div>
+            <div class="app-temperture">
+                <p class="app-temperture__text"><span></span><sup>o</sup>C</p>
+            </div>
+            <div class="app-details">
+                <h3 class="app-details__title">Clouds</h3>
+                <div class="app-detail__item_conainer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='./Assets/js/index.js'></script>
+</body>
+</html>
